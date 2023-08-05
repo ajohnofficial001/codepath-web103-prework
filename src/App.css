@@ -1,0 +1,197 @@
+main {
+    background-color: rgb(0, 6, 13);
+    padding: 3rem;
+    justify-content: center;
+}
+.App {
+    background-image: url('../src/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    text-align: center;
+  
+    height: 100vh;
+    margin-bottom: 0 !important;
+}
+.lightBox{
+    margin-top: 0 !important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #0d0c0ca6;
+    padding-top: 7.2rem;
+    
+}
+
+h1 {
+    color: #fafafa !important;
+    font-size: 5rem !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    margin: 0 auto !important;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.AddEditCreator {
+    padding: 2.5rem 5rem;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+label {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+label p {
+    color: #878787;
+}
+input {
+    height: 18px !important;
+}
+input, textarea {
+    width: 50% !important;
+    color: #040d1e !important;
+    background-color: #d6c8c8 !important;
+}
+input:focus {
+    background-color: #ffffff !important;
+    color: #040d1e !important;
+}
+
+button.submit {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.showCreators {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Card {
+    border: 2px solid #0a0909de;
+    background-size: cover;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    border-radius: 9px;
+    position: relative;
+    margin: 15px 25px;
+    padding-top: 0 !important;
+    width: 40%;
+    height: 350px;
+    color: #fafafa !important;
+    overflow: hidden;
+}
+@media (max-width: 480px)  {
+  .Card {
+    width: 90%;
+  }
+  main {
+    padding: 5px !important;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+article {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #0d0c0ca6 !important;
+    display: flex;
+    margin: 0 !important;
+    color: #fafafa !important;
+    overflow: hidden;
+}
+.card-header {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    height: 100%;
+    padding-top: 40px;
+}.card-header svg {
+    margin-left: 12px;
+}
+h2.name {
+    color: #fafafa;
+    font-family: 'Segoe UI', Tahoma;
+    margin-bottom: 0 !important;
+}
+svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.card-header-edit {
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.card-header-edit a {
+    margin-left: 10px;
+}
+.card-description {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0px;
+}
+.card-description p {
+    font-size: 0.8em;
+    overflow: hidden;
+    position: absolute;
+    bottom: 15px;
+    color: #ebebeb !important;
+}
+
+/*editCreator*/
+
+.submit-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.submit-box button {
+    width: 10rem;
+    align-self: center;
+}
+.submit-update {
+    margin-left: 25%;
+}
+.delete-button {
+    margin-left: 2rem;
+    background-color: red;
+}
+.delete-button:hover {
+    background-color: #f41c1cf0;
+}
+.modify-creator {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.modify-creator button, .modify-creator a {
+    width: 10rem;
+    align-self: center;
+}
+
+.creator-image-box img {
+    border: 5px solid rgba(41, 0, 0, 0.908);
+    border-radius: 50%;
+    box-shadow: inset;
+}
