@@ -193,5 +193,7 @@ svg {
 .creator-image-box img {
     border: 5px solid rgba(41, 0, 0, 0.908);
     border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
     box-shadow: inset;
 }

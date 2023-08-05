@@ -41,18 +41,14 @@ const ViewCreator = ({ data }) => {
 
   const deleteCreator = async (e, id) => {
     e.preventDefault();
+    console.log("Delete button clicked for ID:", id);
+    const { error } = await supabase.from("creator").delete().eq("id", id);
 
-    try {
-      const { error } = await supabase.from("creator").delete().eq("id", id);
-
-      if (error) {
-        console.error("Error deleting creator:", error);
-      } else {
-        console.log("Creator deleted successfully!");
-        window.location = "/";
-      }
-    } catch (error) {
+    if (error) {
       console.error("Error deleting creator:", error);
+    } else {
+      console.log("Creator deleted successfully!");
+      window.location = "/";
     }
   };
 
@@ -98,7 +94,10 @@ const ViewCreator = ({ data }) => {
             Edit
           </button>
         </Link>
-        <button onClick={deleteCreator} className="delete-button">
+        <button
+          onClick={(e) => deleteCreator(e, creator.id)}
+          className="delete-button"
+        >
           Delete
         </button>
       </section>

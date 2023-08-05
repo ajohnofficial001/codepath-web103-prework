@@ -162,7 +162,10 @@ const EditCreator = ({ data }) => {
           >
             Submit
           </button>
-          <button className="delete-button" onClick={deleteCreator}>
+          <button
+            className="delete-button"
+            onClick={(e) => deleteCreator(e, creator.id)}
+          >
             Delete
           </button>
         </div>
