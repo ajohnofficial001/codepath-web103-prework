@@ -4,7 +4,7 @@ Submitted by: **👉🏿 John Adeyemo**
 
 About this web app: **👉🏿 The purpose of Creatorverse is to share at least five creators that are worth following and as well with the ability to create, update, and delete creators.**
 
-Time spent: **👉🏿 15** hours
+Time spent: **👉🏿 18** hours
 
 ## Required Features
 
@@ -42,7 +42,6 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 👉🏿<img src='https://i.imgur.com/CWuk7HT.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-[Imgur](https://i.imgur.com/CWuk7HT.gifv)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -56,6 +55,8 @@ GIF created with ... 👉🏿 ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+I initially intended using Pico CSS but I later had to write a number of CSS codes myself. I had problem with intially connecting my app to the supabase. I found out some errors in my code and read the supabase API documentation again. I planned using Axios but it was not necessary since the Fetch API was used in the documentation. Where I'm at the momemt, I experienced some challenges with power supply so I could no complete the project on time.
 
 ## License
 

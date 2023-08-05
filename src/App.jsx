@@ -15,9 +15,6 @@ const App = () => {
   useEffect(() => {
     const fetchCreators = async () => {
       const { data } = await supabase.from("creator").select();
-      {
-        /*.order("created_at", { ascending: true });*/
-      }
 
       setCreators(data);
     };
