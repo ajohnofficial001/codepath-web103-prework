@@ -56,7 +56,7 @@ GIF created with ... 👉🏿 ScreenToGif
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
-I initially intended using Pico CSS but I later had to write a number of CSS codes myself. I had problem with intially connecting my app to the supabase. I found out some errors in my code and read the supabase API documentation again. I planned using Axios but it was not necessary since the Fetch API was used in the documentation. Where I'm at the momemt, I experienced some challenges with power supply so I could no complete the project on time.
+I initially intended using Pico CSS but I later had to write a number of CSS codes myself. I had problem with intially connecting my app to the supabase. I found out some errors in my code and read the supabase API documentation again. I planned using Axios but it was not necessary since the Fetch API was used in the documentation. Where I'm at the momemt, I experienced some challenges with power supply so I could not complete the project on time.
 
 ## License
 
