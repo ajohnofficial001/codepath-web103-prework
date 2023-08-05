@@ -33,6 +33,10 @@ The following **additional** features are implemented:
 - [x] Creator's LinkedIn, Twitter and YouTube page can be added
 - [x] React Icon used for icons
 
+## Live URL (App deployed on netlify)
+
+[Creatorverse](https://creatorverse-app.netlify.app/)
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
