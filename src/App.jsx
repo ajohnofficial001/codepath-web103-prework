@@ -27,7 +27,7 @@ const App = () => {
       path: "/",
       element: <ShowCreators data={creators} />,
     },
-    { path: "add", element: <AddCreator /> },
+    { path: "/add", element: <AddCreator /> },
     { path: "/edit/:id", element: <EditCreator data={creators} /> },
     { path: "/:id", element: <ViewCreator data={creators} /> },
   ]);
