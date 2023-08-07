@@ -1,4 +1,4 @@
-import { useRoutes } from "react-router-dom";
+import { useRoutes, Link } from "react-router-dom";
 import "./App.css";
 
 import AddCreator from "./pages/addCreator";
@@ -44,9 +44,15 @@ const App = () => {
               </a>
             </li>
             <li>
-              <a href="/add" role="button">
+              <Link
+                to={"/add"}
+                onClick={() =>
+                  window.scrollTo({ top: 600, behavior: "smooth" })
+                }
+                role="button"
+              >
                 Add Creator
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
